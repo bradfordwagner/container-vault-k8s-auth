@@ -1,10 +1,11 @@
 ---
 - hosts: localhost
   vars:
-    go_ver: 1.16.6
+    jq_ver: 1.6
     hashi_apps:
       - name: vault
         ver: 1.9.4
   roles:
     - role: andrewrothstein.hashi
+    - role: andrewrothstein.jq
 
