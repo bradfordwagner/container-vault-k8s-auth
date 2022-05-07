@@ -1,6 +1,7 @@
 ---
 - hosts: localhost
   vars:
+    kubectl_ver: v1.24.0
     jq_ver: 1.6
     hashi_apps:
       - name: vault
@@ -8,4 +9,5 @@
   roles:
     - role: andrewrothstein.hashi
     - role: andrewrothstein.jq
+    - role: andrewrothstein.kubectl
 
