@@ -7,6 +7,7 @@
       - name: vault
         ver: 1.9.4
   roles:
+    - role: andrewrothstein.bash
     - role: andrewrothstein.hashi
     - role: andrewrothstein.jq
     - role: andrewrothstein.kubectl
